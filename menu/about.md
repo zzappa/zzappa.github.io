@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About
 permalink: /about
 ---
 
-I'm Artem, a software engineer and data analyst with a physics background. Before switching to software, I worked at a high-energy physics lab while at university, served as an optical engineer for a medical laser device manufacturer, and spent a few months at the Weizmann Institute's Light-vs-Matter Lab.
+I'm Artem, a software and ML engineer with a physics background. I started in a high-energy physics lab, and then worked as an optical engineer for a medical laser device manufacturer. Now I focus on building machine learning models and data-driven solutions.
