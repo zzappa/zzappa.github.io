@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zzappa.github.io/sitemap.xml

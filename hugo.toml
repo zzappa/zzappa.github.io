@@ -1,0 +1,45 @@
+baseURL = 'https://zzappa.github.io/'
+languageCode = 'en-us'
+title = "zzappa's blog"
+theme = 'typo'
+
+[params]
+description = 'Writing by Artem'
+theme = 'auto'
+colorPalette = 'default'
+paginationSize = 5
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+[params.breadcrumbs]
+enabled = false
+
+[[params.menu]]
+name = 'blog'
+url = '/blog/'
+
+[[params.menu]]
+name = 'about'
+url = '/about/'
+
+[[params.social]]
+name = 'github'
+url = 'https://github.com/zzappa'
+
+[[params.social]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/artemgo/'
+
+[[params.social]]
+name = 'email'
+url = 'mailto:zzappa.blog@gmail.com'
+
+[[params.social]]
+name = 'rss'
+url = '/feed.xml'
+
+[outputFormats.RSS]
+baseName = 'feed'
+
+[markup.highlight]
+noClasses = false

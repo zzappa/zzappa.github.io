@@ -1,7 +1,4 @@
-_site
-Gemfile.lock
-*.gem
-.sass-cache
-.jekyll-metadata
+/public/
+/resources/_gen/
+.hugo_build.lock
 .DS_Store
-.jekyll-cache
