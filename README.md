@@ -28,6 +28,6 @@ The template itself stays unpublished.
 
 ## GitHub Pages
 
-The included workflow builds and deploys the site on pushes to `gh-pages`. In the
+The included workflow builds and deploys the site on pushes to `main`. In the
 repository's Settings → Pages, set the build and deployment source to **GitHub
 Actions** before publishing. The workflow does not run until changes are pushed.
