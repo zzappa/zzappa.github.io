@@ -1,11 +1,11 @@
-<!doctype html>
-<html lang="{{ site.Language.LanguageCode }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url={{ "about/" | relURL }}">
-  <link rel="canonical" href="{{ "about/" | absURL }}">
-  <title>About | {{ site.Title }}</title>
-</head>
-<body><a href="{{ "about/" | relURL }}">About</a></body>
-</html>
+{{ define "main" }}
+<div class="list-container">
+  <h1>Posts</h1>
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ $paginator := .Paginate $posts (site.Params.paginationSize | default 5) }}
+  {{ range $paginator.Pages }}
+    {{ partial "post-entry.html" . }}
+  {{ end }}
+  {{ partial "pagination-controls.html" $paginator }}
+</div>
+{{ end }}
