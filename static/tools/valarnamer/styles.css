@@ -27,4 +27,3 @@ h1 { margin: 0; font-size: 1.75rem; overflow-wrap: anywhere; }
 #description { margin: .5rem 0 1.25rem; font-size: 1.25rem; }
 button { font: inherit; cursor: pointer; }
 #github-status { min-height: 1.5em; margin-top: 1.25rem; }
-footer { padding: .75rem 1rem; font-size: .875rem; }
