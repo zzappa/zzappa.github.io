@@ -7,7 +7,7 @@ theme = 'typo'
 description = 'Writing by Artem'
 theme = 'auto'
 colorPalette = 'default'
-paginationSize = 5
+paginationSize = 20
 listSummaries = false
 listDateFormat = '2 Jan 2006'
 

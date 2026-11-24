@@ -1,6 +1,5 @@
 ---
 title: "Top ML papers over the last 90 years"
-author: "Artem"
 description: "A list of highly cited AI, machine learning and deep learning papers published from 1935 to 2023."
 date: 2024-02-11
 url: /top-ai-papers/

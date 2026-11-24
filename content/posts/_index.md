@@ -1,5 +1,5 @@
 ---
 title: Posts
 url: /blog/
-aliases: ["/writing/", "/writing.html"]
+aliases: ["/writing/", "/writing.html", "/posts.html"]
 ---

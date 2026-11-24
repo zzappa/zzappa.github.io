@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url('fonts/ringbearer-font/RingbearerMedium-51mgZ.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body { min-height: 100%; }
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Ringbearer, Georgia, serif;
+    text-align: center;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+h1 { margin: 0; font-size: 1.75rem; overflow-wrap: anywhere; }
+#description { margin: .5rem 0 1.25rem; font-size: 1.25rem; }
+button { font: inherit; cursor: pointer; }
+#github-status { min-height: 1.5em; margin-top: 1.25rem; }
+footer { padding: .75rem 1rem; font-size: .875rem; }
